@@ -68,7 +68,7 @@
 &kp Q      &kp W         &kp E     &kp R       &kp T                                        &kp Y    &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D     &kp F       &kp G                                        &kp H    &kp J  &kp K      &kp L    &kp SEMI
 &kp Z      &kp X         &kp C     &kp V       &kp B                                        &kp N    &kp M  &kp COMMA  &kp DOT  &kp MINUS
-&kp LCTRL  &kp LEFT_WIN  &kp LALT  &kp LSHIFT  &lt 4 SPACE  &lt 5 LA(GRAVE)  &kp BACKSPACE  &kp RET                             &to 2
+&kp LCTRL  &kp LEFT_WIN  &kp LALT  &kp LSHIFT  &lt 4 SPACE  &lt 5 LA(GRAVE)  &kp BACKSPACE  &kp RET                             &to 1
             >;
         };
 
@@ -105,10 +105,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7     &kp N8  &kp N9     &kp N0
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK
-&none           &none           &none         &none      &none                   &kp PAGE_DOWN  &none      &none   &none      &none
-&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 3                                        &none
+&kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7    &kp N8    &kp N9     &kp N0
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp MB4  &mkp MB5  &mkp LCLK  &mkp RCLK
+&none           &none           &none         &none      &none                   &kp PAGE_DOWN  &none     &none     &none      &mkp MB3
+&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 3                                         &none
             >;
         };
 
