@@ -77,7 +77,7 @@
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
 &kp LEFT        &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                         &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
-&none           &none         &none         &none         &none                         &kp UNDERSCORE  &kp PLUS      &trans            &trans             &none
+&none           &none         &none         &none         &none                         &kp UNDERSCORE  &kp PLUS      &trans            &kp BACKSLASH      &kp SLASH
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                             &to 0
             >;
         };
@@ -87,7 +87,7 @@
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
+&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp BACKSLASH
 &trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &trans
             >;
         };
