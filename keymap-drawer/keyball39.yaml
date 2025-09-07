@@ -188,9 +188,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
   - '&mkp MB5'
-  - $$mdi:pan-up$$
-  - $$mdi:pan-down$$
-  - '&mkp MB3'
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
