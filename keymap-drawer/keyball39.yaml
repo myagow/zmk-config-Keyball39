@@ -178,18 +178,18 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - '&mkp MB4'
-  - '&mkp MB5'
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB5'
+  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - '&mkp MB3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
