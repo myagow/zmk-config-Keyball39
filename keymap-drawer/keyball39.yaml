@@ -295,3 +295,13 @@ combos:
   k: $$mdi:arrow-down-bold$$
 - p: [12, 38]
   k: $$mdi:arrow-right-bold$$
+- p: [33, 38]
+  k: {t: QWRT, h: toggle}
+- p: [34, 38]
+  k: {t: NUM, h: toggle}
+- p: [35, 38]
+  k: {t: SYM, h: toggle}
+- p: [36, 38]
+  k: {t: FUN, h: toggle}
+- p: [37, 38]
+  k: {t: MOUSE, h: toggle}
