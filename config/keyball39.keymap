@@ -121,6 +121,11 @@
             bindings = <&to 4>;
             key-positions = <37 38>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <24 38>;
+        };
     };
 
     keymap {
