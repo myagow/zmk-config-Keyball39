@@ -96,6 +96,31 @@
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <12 38>;
         };
+
+        Layer0 {
+            bindings = <&to 0>;
+            key-positions = <33 38>;
+        };
+
+        Layer1 {
+            bindings = <&to 1>;
+            key-positions = <34 38>;
+        };
+
+        Layer2 {
+            bindings = <&to 2>;
+            key-positions = <35 38>;
+        };
+
+        Layer3 {
+            bindings = <&to 3>;
+            key-positions = <36 38>;
+        };
+
+        Layer4 {
+            bindings = <&to 4>;
+            key-positions = <37 38>;
+        };
     };
 
     keymap {
