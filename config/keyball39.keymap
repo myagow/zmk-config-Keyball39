@@ -65,56 +65,67 @@
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <38 0>;
+            timeout-ms = <50>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <38 10>;
+            timeout-ms = <50>;
         };
 
         delete {
             bindings = <&kp C_AC_DEL>;
             key-positions = <38 9>;
+            timeout-ms = <50>;
         };
 
         up {
             bindings = <&kp UP_ARROW>;
             key-positions = <1 38>;
+            timeout-ms = <50>;
         };
 
         left {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <10 38>;
+            timeout-ms = <50>;
         };
 
         down {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <11 38>;
+            timeout-ms = <50>;
         };
 
         right {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <12 38>;
+            timeout-ms = <50>;
         };
 
         Layer0 {
             bindings = <&to 0>;
             key-positions = <33 38>;
+            timeout-ms = <50>;
         };
 
         Layer1 {
             bindings = <&to 1>;
             key-positions = <34 38>;
+            timeout-ms = <50>;
         };
 
         Layer2 {
             bindings = <&to 2>;
             key-positions = <35 38>;
+            timeout-ms = <50>;
         };
 
         Layer3 {
             bindings = <&to 3>;
             key-positions = <36 38>;
+            timeout-ms = <50>;
         };
 
         Layer4 {
@@ -125,6 +136,7 @@
         bootloader {
             bindings = <&bootloader>;
             key-positions = <24 38>;
+            timeout-ms = <50>;
         };
     };
 
