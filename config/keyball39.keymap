@@ -77,7 +77,7 @@
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
 &kp LEFT        &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                         &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
-&none           &none         &none         &none         &none                         &kp UNDERSCORE  &kp PLUS      &trans            &kp BACKSLASH      &kp SLASH
+&bt BT_PRV      &bt BT_NXT    &none         &none         &none                         &kp UNDERSCORE  &kp PLUS      &trans            &kp BACKSLASH      &kp SLASH
 &bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                             &to 0
             >;
         };
