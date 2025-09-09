@@ -76,6 +76,26 @@
             bindings = <&kp C_AC_DEL>;
             key-positions = <38 9>;
         };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <1 38>;
+        };
+
+        left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <10 38>;
+        };
+
+        down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <11 38>;
+        };
+
+        right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <12 38>;
+        };
     };
 
     keymap {
