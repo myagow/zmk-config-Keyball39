@@ -280,3 +280,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [38, 0]
+  k: $$mdi:keyboard-esc$$
+- p: [38, 10]
+  k: $$mdi:keyboard-tab$$
+- p: [38, 9]
+  k: AC DEL
