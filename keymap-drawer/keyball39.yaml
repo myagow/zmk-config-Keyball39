@@ -287,3 +287,11 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [38, 9]
   k: AC DEL
+- p: [1, 38]
+  k: $$mdi:arrow-up-bold$$
+- p: [10, 38]
+  k: $$mdi:arrow-left-bold$$
+- p: [11, 38]
+  k: $$mdi:arrow-down-bold$$
+- p: [12, 38]
+  k: $$mdi:arrow-right-bold$$
