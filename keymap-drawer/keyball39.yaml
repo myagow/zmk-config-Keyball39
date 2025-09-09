@@ -305,3 +305,5 @@ combos:
   k: {t: FUN, h: toggle}
 - p: [37, 38]
   k: {t: MOUSE, h: toggle}
+- p: [24, 38]
+  k: $$mdi:progress-download$$
