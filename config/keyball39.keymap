@@ -59,6 +59,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <38 0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <38 10>;
+        };
+
+        delete {
+            bindings = <&kp C_AC_DEL>;
+            key-positions = <38 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
